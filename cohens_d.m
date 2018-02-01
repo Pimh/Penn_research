@@ -1,4 +1,5 @@
 function d = cohens_d(X,Y)
+% compute Cohen's d value, a measure of effect size
 
 X = X(~isnan(X));
 Y = Y(~isnan(Y));
